@@ -2,7 +2,7 @@
 title: LTR Runbooks
 description: Documentation for LTR Runbooks
 logo: "/assets/jointlogo.jpg"
-favicon_ico: "/assets/images/favicon.ico"
+favicon_ico: "/assets/favicon.ico"
 
 # Theme settings
 remote_theme: pmarsceill/just-the-docs
