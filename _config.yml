@@ -21,3 +21,6 @@ search:
   preview_words_after: 10
 
 nav_enabled: true
+
+just_the_docs:
+  custom_css: "assets/css/custom.css"
