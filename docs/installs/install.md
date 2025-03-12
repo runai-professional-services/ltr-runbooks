@@ -6,7 +6,7 @@ parent: Installs and Upgrades
 
 # Installing a Self-Hosted Cluster
 
-Note - Always refer to documentation - this is just a students' guide*
+*Note - Always refer to documentation - this is just a students' guide*
 
 ## Pre-Reqs
 
@@ -122,7 +122,7 @@ Note - Always refer to documentation - this is just a students' guide*
     ```bash
     helm repo add runai-backend https://runai.jfrog.io/artifactory/cp-charts-prod
     helm repo update
-    helm upgrade -i runai-backend -n runai-backend runai-backend/control-plane --version "~2.20" --set global.domain=$MY_DOMAIN
+    helm upgrade -i runai-backend -n runai-backend runai-backend/control-plane --version "~2.19" --set global.domain=$MY_DOMAIN
     ```
 
 ### Open the Web UI
@@ -136,6 +136,7 @@ Note - Always refer to documentation - this is just a students' guide*
 - Copy the installation instructions to deploy
 - Click "done"
 - Wait for the cluster to connect
+- **HINT** Watch the runai namespace using K9S to see the build
 
 ## Check for the correct nodes and GPUs
 
