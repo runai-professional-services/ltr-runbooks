@@ -19,4 +19,5 @@ nav_order: 5
 - [Certificate Decoding](https://www.sslshopper.com/certificate-decoder.html)
 - [Java Web Token (JWT) Decoder](https://jwt.io/)
 - [SAML Tracer - Browser Extension](https://chromewebstore.google.com/detail/saml-tracer/mpdajninpobndbfcldcmbpnnbhibjmch?hl=en)
+- [Oath Flows - Browser Extension](https://chromewebstore.google.com/detail/oauth-flows/dandckbjghfejnhmnhloigndkeabdbbo?hl=en)
 
