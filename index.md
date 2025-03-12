@@ -2,4 +2,4 @@
 title: Installs and Upgrades
 ---
 
-## Learn to Run - Runbooks for Platform Administrator Training
+## Learn to Run - Installation and Upgrade Runbooks
