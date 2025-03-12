@@ -1,5 +1,5 @@
 ---
-title: Troubleshooting Basics - 1
+title: Scenario 1
 nav_order: 1
 parent: Troubleshooting Basics
 ---

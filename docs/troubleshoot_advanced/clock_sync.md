@@ -1,5 +1,5 @@
 ---
-title: Advanced Troubleshooting - 1
+title: Scenario 1
 nav_order: 1
 parent: Advanced Troubleshooting
 ---
