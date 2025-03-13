@@ -6,9 +6,9 @@ parent: Troubleshooting Basics
 
 # Troubleshooting Basics - Scenario 1
 
-## Expired Certificates Prevents Login
+## UI Stuck at Login Screen
 
-*Your instructor will apply a failure to your running cluster to replicate a common failure*
+*Note: Your instructor will apply a failure to your running cluster to replicate a common failure*
 
 ### Scenario
 
@@ -19,7 +19,27 @@ A user has just reported an issue logging into the platform. They claim that the
 #### Attempt to replicate
 
 - Log out of the platform and attempt to replicate the issue. You will notice that the report was correct and you are unable to log into the UI.
-   
+
+### Potential Issue 1 - Time Skew in Kubernetes Nodes
+
+#### Check clocks on nodes
+
+- Connect to the cluster using K9S; (This is already installed in your environment)
+
+    ```bash
+    k9s
+    ```
+
+- Obtain a shell on each of the nodes and run the `date` command
+
+    ```bash
+    date
+    ```
+
+- Note the time on each of the nodes and apply NTP / correct as necessary
+
+### Potential Issue 2 - Expired Certificates
+
 #### Recover the certificate for inspection
 
 - Using kubectl, recover and decode the `runai-backend-tls` secret in the `runai-backend` namespace
