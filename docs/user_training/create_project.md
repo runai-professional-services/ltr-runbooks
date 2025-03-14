@@ -1,7 +1,7 @@
 ---
 title: Configuring a Project
 nav_order: 1
-parent: User Training
+parent: Using the Platform
 ---
 
 <iframe 
