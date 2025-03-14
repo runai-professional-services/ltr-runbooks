@@ -1,5 +1,5 @@
 ---
-title: Stuck at Login
+title: Stuck at Login Page
 nav_order: 1
 parent: Troubleshooting Basics
 ---
