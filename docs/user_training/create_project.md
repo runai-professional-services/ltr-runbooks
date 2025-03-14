@@ -4,8 +4,10 @@ nav_order: 1
 parent: Using the Platform
 ---
 
-<iframe 
-    src="https://scribehow.com/embed/Creating_a_New_Project_in_Run_Step-by-Step_Guide__prpLaxZaQMO8MgU0VtXzcA?as=scrollable" 
-    style="width: 100%; height: 100vh; border: none; display: block; max-width: 100%;" 
-    scrolling="no">
-</iframe>
+<script>
+    window.addEventListener('message', function(event) {
+        if (event.data && event.data.height) {
+            document.querySelector('iframe').style.height = event.data.height + 'px';
+        }
+    });
+</script>
