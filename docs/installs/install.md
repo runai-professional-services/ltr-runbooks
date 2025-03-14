@@ -4,6 +4,8 @@ nav_order: 1
 parent: Installs and Upgrades
 ---
 
+[Docs](https://docs.run.ai/v2.19/admin/runai-setup/self-hosted/k8s/prerequisites/){: .btn .btn-green }
+
 # Installing a Self-Hosted Cluster
 
 *Note - Always refer to documentation - this is just a students' guide*
