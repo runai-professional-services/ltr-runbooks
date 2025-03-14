@@ -24,3 +24,7 @@ nav_enabled: true
 
 just_the_docs:
   custom_css: "assets/css/custom.css"
+
+
+baseurl: ""
+url: "https://yourdomain.com"
