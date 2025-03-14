@@ -1,5 +1,5 @@
 ---
-title: Scenario 1
+title: Stuck at Login
 nav_order: 1
 parent: Troubleshooting Basics
 ---
