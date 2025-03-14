@@ -8,11 +8,11 @@ parent: Installs and Upgrades
 
 *Note - Always refer to documentation - this is just a students' guide*
 
+Your instructor will provide you with a private key and domain to access your instance
+
 ## Pre-Reqs
 
 ### Set some ENVs for your cluster
-
-#### Note: Your instructor will provide you with a private key to access your instance
 
 - Set your domain
 
