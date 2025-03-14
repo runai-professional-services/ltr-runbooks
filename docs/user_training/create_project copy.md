@@ -1,6 +1,6 @@
 ---
-title: Configuring Projects 2
-nav_order: 2
+title: Configuring a Project
+nav_order: 1
 parent: User Training
 ---
 
