@@ -6,7 +6,7 @@ parent: Installs and Upgrades
 
 # Upgrading The Cluster
 
-Note - Always refer to documentation - this is just a students' guide*
+*Note - Always refer to documentation - this is just a students' guide*
 
 ## Pre-Reqs
 
