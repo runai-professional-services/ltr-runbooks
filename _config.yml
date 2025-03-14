@@ -26,6 +26,5 @@ just_the_docs:
   custom_css: "assets/css/custom.css"
 footer_content: ""
 
-
 baseurl: ""
 url: "https://yourdomain.com"
