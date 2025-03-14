@@ -64,6 +64,3 @@ parent: User Training
 11\. You'll notice here that the status goes to 'Creating.' And once complete, you can see that the status is 'Ready.'
 
 ![](https://ajeuwbhvhr.cloudimg.io/colony-recorder.s3.amazonaws.com/files/2025-03-14/60ae1774-1ed2-48e6-9e00-24b37c6c0e58/ascreenshot.jpeg?tl_px=0,0&br_px=2064,1153&force_format=jpeg&q=100&width=1120.0&wat=1&wat_opacity=1&wat_gravity=northwest&wat_url=https://colony-recorder.s3.amazonaws.com/images/watermarks/22C55E_standard.png&wat_pad=435,127)
-#### [Made with Scribe](https://scribehow.com/shared/Creating_a_New_Project_in_Run_Step-by-Step_Guide__prpLaxZaQMO8MgU0VtXzcA)
-
-
