@@ -7,7 +7,7 @@ parent: Installs and Upgrades
 # Installing a Self-Hosted Cluster
 
 <span class="fs-3">
-[Docs](https://docs.run.ai/v2.19/admin/runai-setup/self-hosted/k8s/prerequisites/){: .btn .btn-green }
+[Docs](https://docs.run.ai/v2.19/admin/runai-setup/self-hosted/k8s/prerequisites/){: .btn }
 </span>
 
 *Note - Always refer to documentation - this is just a students' guide*

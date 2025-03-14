@@ -7,7 +7,7 @@ parent: Installs and Upgrades
 # Upgrading The Cluster
 
 <span class="fs-3">
-[Docs](https://docs.run.ai/v2.19/admin/runai-setup/self-hosted/k8s/upgrade/){: .btn .btn-pink }
+[Docs](https://docs.run.ai/v2.19/admin/runai-setup/self-hosted/k8s/upgrade/){: .btn}
 </span>
 
 *Note - Always refer to documentation - this is just a students' guide*
