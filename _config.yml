@@ -6,7 +6,7 @@ favicon_ico: "/assets/favicon.ico"
 
 # Theme settings
 remote_theme: pmarsceill/just-the-docs
-color_scheme: dark
+color_scheme: light
 
 # Plugins
 plugins:
