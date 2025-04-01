@@ -29,7 +29,7 @@ Your instructor will provide you with a private key and domain to access your in
 - SSH into your lab with the provided key
 
     ```bash
-    ssh -i /my/key $MY_DOMAIN
+    ssh -i /my/key ubuntu@$MY_DOMAIN
     ```
 
 - Change to the Artifacts directory
