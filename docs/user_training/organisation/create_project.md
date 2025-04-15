@@ -12,7 +12,7 @@ parent: Organisation
 
 # Create organizational structure
 
-*Hint - Use the official run:ai documentation 
+*Hint - Use the official run:ai documentation*
 
 ## Create Departments
 
@@ -36,4 +36,4 @@ The quotas are set only to default nodepool, we need to redistrbiute them.
 - Allocate Quota for Department A's projects to nodepool h100
 - Allocate Quota for Department B's projects to nodepool h200
 
-*Note - Try using APIs to do it!
+*Note - Try using APIs to do it*
