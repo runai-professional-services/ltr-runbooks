@@ -12,7 +12,13 @@
 - Divide the quota as you wish
 - Under Department B create two projects
 
+## Create access rules
 
+- Create a Department Admin role for each department - the username is your nvidia email and another name (can be whatever you wish)
+- Create Researcher L1 that has a permission to one project - use any name you wish
+- Save the first one time password for later
+
+  
 ## Create Nodepools
 
 - Create nodepool named h100 from one node
