@@ -1,4 +1,8 @@
-
+---
+title: Submit Various Workloads
+nav_order: 2
+parent: workloads
+---
 
 *Hint - Use the official run:ai documentation*
 
