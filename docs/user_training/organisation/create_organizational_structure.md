@@ -1,3 +1,9 @@
+---
+title: Configuring Organizational Structure 
+nav_order: 2
+parent: Organisation
+---
+
 # Create organizational structure
 
 *Hint - Use the official run:ai documentation*
