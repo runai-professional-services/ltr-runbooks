@@ -6,14 +6,13 @@ parent: workloads
 
 *Hint - Use the official run:ai documentation*
 
-# Create environment
+## Create environment
+
 Create an environment for the following images
 
 - quay.io/opendatahub-contrib/workbench-images:vscode-datascience-c9s-py311_2023c_latest
 
-Check the port (Docker documentation)
-
-- http://gcr.io/run-ai-demo/quickstart-fake
+Check the relevant port (Use Docker documentation)
 
 - gcr.io/run-ai-demo/quickstart-fake
 
@@ -23,10 +22,11 @@ Under project A launch two interactive workloads
 
 - VScode
 - Jupyter
+- Try connecting to them
 
 Which one is working as expected?
 
-## Trainig workloads
+## Training workloads
 
 - Edit the quota of project B to 2 gpus for nodepool h200
 - Under Project B launch two training workloads with a single GPU (make sure they are using nodepool h200)
