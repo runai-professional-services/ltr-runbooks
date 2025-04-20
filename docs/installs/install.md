@@ -20,9 +20,9 @@ Your instructor will provide you with a private key and domain to access your in
 
 - Set your domain
 
-    ```bash
-    export MY_DOMAIN="[your_name].runailabs-cs.com"
-    ```
+```bash
+export MY_DOMAIN="[your_name].runailabs-cs.com"
+```
 
 ### Connect to your lab
 
