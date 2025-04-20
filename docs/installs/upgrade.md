@@ -18,37 +18,38 @@ parent: Installs and Upgrades
 
 - Set your domain
 
-    ```bash
-    export MY_DOMAIN="[your_name].runailabs-cs.com"
-    ```
+```bash
+export MY_DOMAIN="[your_name].runailabs-cs.com"
+```
 
 ### Connect to your lab
 
 - SSH into your lab with the provided key
 
-    ```bash
-    ssh -i /my/key $MY_DOMAIN
-    ```
+```bash
+ssh -i /my/key $MY_DOMAIN
+```
 
 - Change to the Artifacts directory
 
-    ```bash
-    cd Artifacts
-    ```
+```bash
+cd Artifacts
+```
+
 ### Back up your `runai-backend` values
 
 - Recover values with helm:
 
-    ```bash
-    helm get values runai-backend -n runai-backend > runai_control_plane_values.yaml
-    ```
+```bash
+helm get values runai-backend -n runai-backend > runai_control_plane_values.yaml
+```
 
 - Run the upgrade to the new version
 
-    ```bash
-    helm upgrade runai-backend -n runai-backend runai-backend/control-plane \
-        --version "~2.20.0" -f runai_control_plane_values.yaml --reset-then-reuse-values
-    ```
+```bash
+helm upgrade runai-backend -n runai-backend runai-backend/control-plane \
+    --version "~2.20.0" -f runai_control_plane_values.yaml --reset-then-reuse-values
+```
 
 - Observe the upgrade to the runai-backend namespace with K9S
 
