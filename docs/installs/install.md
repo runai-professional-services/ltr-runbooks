@@ -29,7 +29,7 @@ export MY_DOMAIN="[your_name].runailabs-cs.com"
 - SSH into your lab with the provided key
 
 ```bash
-ssh -i /my/key ubuntu@$MY_DOMAIN
+ssh -p 2222 -i /my/key ubuntu@$MY_DOMAIN
 ```
 
 - Change to the Artifacts directory
@@ -38,7 +38,11 @@ ssh -i /my/key ubuntu@$MY_DOMAIN
 cd Artifacts
 ```
 
+- Set your cluster ENV on the instance
 
+```bash
+export MY_DOMAIN="[your_name].runailabs-cs.com"
+```
 
 ### Create Namespaces
 
@@ -89,9 +93,7 @@ helm upgrade -i gpu-operator oci://ghcr.io/run-ai/fake-gpu-operator/fake-gpu-ope
   --namespace gpu-operator \
   --create-namespace \
   --version 0.0.62 \
-  --set topology.nodePools.default.gpus[0].type="NVIDIA-A100" \
-  --set topology.nodePools.default.gpus[0].memory="80GB" \
-  --set topology.nodePools.default.gpus[0].count=8
+  --f ./gpu-driver/values.yaml
 ```
 
 ### Install Prometheus
