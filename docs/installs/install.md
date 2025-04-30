@@ -85,9 +85,13 @@ Your instructor will provide you with a private key and domain to access your in
 - We will install a fake GPU operator rather than the official NVIDIA one as we have no real GPUs in the nodes
 
     ```bash
-    helm repo add fake-gpu-operator https://fake-gpu-operator.storage.googleapis.com
-    helm repo update
-    helm upgrade -i gpu-operator fake-gpu-operator/fake-gpu-operator --namespace gpu-operator --create-namespace  --version 0.0.42
+    helm upgrade -i gpu-operator oci://ghcr.io/run-ai/fake-gpu-operator/fake-gpu-operator \
+      --namespace gpu-operator \
+      --create-namespace \
+      --version 0.0.62 \
+      --set topology.nodePools.default.gpus[0].type="NVIDIA-A100" \
+      --set topology.nodePools.default.gpus[0].memory="80GB" \
+      --set topology.nodePools.default.gpus[0].count=8
     ```
 
 ### Install Prometheus
