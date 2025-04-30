@@ -93,7 +93,7 @@ helm upgrade -i gpu-operator oci://ghcr.io/run-ai/fake-gpu-operator/fake-gpu-ope
   --namespace gpu-operator \
   --create-namespace \
   --version 0.0.62 \
-  --f ./gpu-driver/values.yaml
+  -f ./gpu-driver/values.yaml
 ```
 
 ### Install Prometheus
