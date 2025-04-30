@@ -92,7 +92,7 @@ kubectl -n runai create secret generic runai-ca-cert \
 helm upgrade -i gpu-operator oci://ghcr.io/run-ai/fake-gpu-operator/fake-gpu-operator \
   --namespace gpu-operator \
   --create-namespace \
-  --version 0.0.62 \
+  --version 0.0.53 \
   -f ./gpu-driver/values.yaml
 ```
 
