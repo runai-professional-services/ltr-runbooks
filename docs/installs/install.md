@@ -135,9 +135,24 @@ helm repo update
 helm upgrade -i runai-backend -n runai-backend runai-backend/control-plane --version "~2.20" --set global.domain=$MY_DOMAIN
 ```
 
-### Open the Web UI
+## Observe the Backend Pods
 
-- Open a web browser and navigate to $MY_DOMAIN. Use credentials user: test@run.ai / password: Abcd!234
+- In your terminal, launch K9S
+
+```bash
+k9s
+```
+
+- Set the namespace
+
+```bash
+:ns # [enter]
+# use arrow keys to select runai-backend [enter]
+```
+
+## Open the Web UI
+
+- Once all pods in the runai-backend namespace are healthy, open a web browser and navigate to $MY_DOMAIN. Use credentials user: test@run.ai / password: Abcd!234
 
 ## Install the Cluster
 
