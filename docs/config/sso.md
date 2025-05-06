@@ -7,7 +7,7 @@ parent: Platform Configuration
 # Implementing SSO
 
 <span class="fs-3">
-[Docs](https://docs.run.ai/v2.20/admin/authentication/authentication-overview/){: .btn }
+  <a href="https://docs.run.ai/v2.20/admin/authentication/authentication-overview/" class="btn" target="_blank" rel="noopener">Docs</a>
 </span>
 
 *Note - Always refer to documentation - this is just a students' guide*
