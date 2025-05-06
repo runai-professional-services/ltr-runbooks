@@ -92,5 +92,6 @@ k9s
 
 ### Check for the correct nodes and GPUs
 
+- Check the Resources / Clusters tab to ensure both the backend and cluster are at the correct version
 - Visit the nodes and page to ensure that all expected GPUs are registered
 - View the dashboards to ensure that metrics are working as expected
