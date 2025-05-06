@@ -31,7 +31,7 @@ clientid
 clientsecret
 #
 # Scopes:
-openid, email, profile
+openid, runai
 #
 # Logout URL:
 https://sso.learn-to.run/application/o/provider-for-run-ai-oidc/end-session/
