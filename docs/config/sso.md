@@ -50,17 +50,56 @@ https://sso.learn-to.run/application/o/provider-for-run-ai-oidc/end-session/
 
 - Click on "+REDIRECT URL" and paste in the correct value
 
-## Check Authorisation is Correct
+## Check Authentication is Correct
 
 *IMPORTANT - Always test SSO configuration in a clean privacy browser
 
 - In a new privacy browser, open the application and attempt to log in with SSO
 - You should see that you are correctly authenticated *BUT*, you will see a permissions error
 
-## Configure Authorisation
+## Configure Authorisation for Admins
 
 - In your non-privacy browser window, logged in as a local administrator, Open "Access" and create a "NEW ACCESS RULE"
 - Select "Subject" / "SSO Group"
 - Our IDp Admin has told us that admins are in a group called "System Administrators". Add that to the group name.
 - Select the system role of "System administrator" and set the scope to global
 - Save the rule
+
+## Configure Authorisation for Viewers
+
+- In your non-privacy browser window, logged in as a local administrator, Open "Access" and create a "NEW ACCESS RULE"
+- Select "Subject" / "SSO Group"
+- Our IDp Admin has told us that admins are in a group called "Viewers". Add that to the group name.
+- Select the system role of "Viewers" and set the scope to global
+- Save the rule
+
+## Test our Authorisations
+
+### Administrator
+
+- In a clean privacy browser, attempt to log into the platform with the following credentials, having selected the "SSO" option for sign in:
+
+```bash
+#username:
+runai-admin@nvidia.com
+
+#password:
+Abcd!234
+```
+
+- Ensure that you have a working SSO login and that you have admin privileges
+
+### Viewer
+
+- In another clean privacy browser, attempt to log into the platform with the following credentials, having selected the "SSO" option for sign in:
+
+```bash
+#username:
+runai-viewer@nvidia.com
+
+#password:
+Abcd!234
+```
+
+- Ensure that you have a working SSO login and that you only have privileges by attempting to create an now project or other object
+  
