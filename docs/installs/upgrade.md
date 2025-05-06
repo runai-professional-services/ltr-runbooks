@@ -69,7 +69,8 @@ k9s
 ### Install the Cluster
 
 - When all pods are healthy in the `runai-backend` namespace:
-  - Go to the clusters page
+  - Go to the Resources / Clusters page
+  - Check the box next to the cluster you want to upgrade and select "GET INSTALLATION INSTRUCTIONS"
   - Deploy to the same cluster as the control plane and set relevant matching version
   - Copy the installation instructions to deploy
   - Click "done"
