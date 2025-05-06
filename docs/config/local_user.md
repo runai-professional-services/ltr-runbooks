@@ -1,6 +1,6 @@
 ---
 title: Configure a local user with RBAC
-nav_order: 3
+nav_order: 1
 parent: Platform Configuration
 ---
 
