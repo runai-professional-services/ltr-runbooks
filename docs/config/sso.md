@@ -23,16 +23,12 @@ For the purpose of this lab, your IDp admin has provided you with the following 
 ```bash
 # Discovery URL:        
 https://sso.learn-to.run/application/o/provider-for-run-ai-oidc/.well-known/openid-configuration
-#
 # Client ID:
 clientid
-#
 # Client Secret:
 clientsecret
-#
 # Scopes:
 openid, runai
-#
 # Logout URL:
 https://sso.learn-to.run/application/o/provider-for-run-ai-oidc/end-session/
 ```
