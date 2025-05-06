@@ -7,7 +7,7 @@ parent: Installs and Upgrades
 # Upgrading The Cluster
 
 <span class="fs-3">
-[Docs](https://docs.run.ai/v2.20/admin/runai-setup/self-hosted/k8s/upgrade/){: .btn}
+[Docs](https://docs.run.ai/v2.21/admin/runai-setup/self-hosted/k8s/upgrade/){: .btn}
 </span>
 
 *Note - Always refer to documentation - this is just a students' guide*
@@ -48,7 +48,7 @@ helm get values runai-backend -n runai-backend > runai_control_plane_values.yaml
 
 ```bash
 helm upgrade runai-backend -n runai-backend runai-backend/control-plane \
-    --version "~2.20.0" -f runai_control_plane_values.yaml --reset-then-reuse-values
+    --version "~2.21" -f runai_control_plane_values.yaml --reset-then-reuse-values
 ```
 
 - Observe the upgrade to the runai-backend namespace with K9S

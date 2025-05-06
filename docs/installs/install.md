@@ -7,7 +7,7 @@ parent: Installs and Upgrades
 # Installing a Self-Hosted Cluster
 
 <span class="fs-3">
-[Docs](https://docs.run.ai/v2.19/admin/runai-setup/self-hosted/k8s/prerequisites/){: .btn }
+[Docs](https://docs.run.ai/v2.20/admin/runai-setup/self-hosted/k8s/prerequisites/){: .btn }
 </span>
 
 *Note - Always refer to documentation - this is just a students' guide*
@@ -132,7 +132,7 @@ chmod +x preflight
 ```bash
 helm repo add runai-backend https://runai.jfrog.io/artifactory/cp-charts-prod
 helm repo update
-helm upgrade -i runai-backend -n runai-backend runai-backend/control-plane --version "~2.19" --set global.domain=$MY_DOMAIN
+helm upgrade -i runai-backend -n runai-backend runai-backend/control-plane --version "~2.20" --set global.domain=$MY_DOMAIN
 ```
 
 ### Open the Web UI
