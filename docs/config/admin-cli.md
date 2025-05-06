@@ -7,7 +7,7 @@ parent: Platform Configuration
 # Configuring the Administrator CLI
 
 <span class="fs-3">
-[Docs](https://docs.run.ai/latest/admin/config/cli-admin-install/){: .btn }
+  <a href="https://docs.run.ai/latest/admin/config/cli-admin-install/" class="btn" target="_blank" rel="noopener">Docs</a>
 </span>
 
 *Note - Always refer to documentation - this is just a students' guide*
