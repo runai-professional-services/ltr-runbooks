@@ -18,18 +18,17 @@ Ensure the following pre-reqs are met
 
 - Kubectl: The Kubernetes command-line interface must be installed and configured to access your cluster
 - Cluster administrative permissions: The CLI requires a Kubernetes profile with administrative privileges
-
-Under General settings → Workloads, enable the flag Improved command line interface
+- Under General settings → Workloads, enable the flag Improved command line interface
 
 ## Installing the CLI
 
 - Click the Help (?) icon in the top right corner
 - Select Researcher Command Line Interface
 - Select the cluster you want the CLI to communicate with
-- Select your "Linux" operating system
+- Select "Linux" operating system
 - Copy the installer command and run it in the terminal
 - Follow the installation process instructions
-- Click Enter to use the default values (recommended)
+- Click Enter to use the default values
 
 ## Testing the installation
 
