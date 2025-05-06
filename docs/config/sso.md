@@ -48,7 +48,7 @@ https://sso.learn-to.run/application/o/provider-for-run-ai-oidc/end-session/
 
 ## Check Authentication is Correct
 
-*IMPORTANT - Always test SSO configuration in a clean privacy browser
+*IMPORTANT - Always test SSO configuration in a clean privacy browser*
 
 - In a new privacy browser, open the application and attempt to log in with SSO
 - You should see that you are correctly authenticated *BUT*, you will see a permissions error
@@ -78,7 +78,6 @@ https://sso.learn-to.run/application/o/provider-for-run-ai-oidc/end-session/
 ```bash
 #username:
 runai-admin@nvidia.com
-
 #password:
 Abcd!234
 ```
@@ -92,7 +91,6 @@ Abcd!234
 ```bash
 #username:
 runai-viewer@nvidia.com
-
 #password:
 Abcd!234
 ```
