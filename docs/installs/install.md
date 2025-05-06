@@ -160,8 +160,21 @@ k9s
 - Deploy to the same cluster as the control plane and set relevant matching version
 - Copy the installation instructions to deploy
 - Click "done"
-- Wait for the cluster to connect
-- **HINT** Watch the runai namespace using K9S to see the build
+
+## Observe the Cluster Pods
+
+- In your terminal, launch K9S
+
+```bash
+k9s
+```
+
+- Set the namespace
+
+```bash
+:ns # [enter]
+# use arrow keys to select runai [enter]
+```
 
 ## Check for the correct nodes and GPUs
 
