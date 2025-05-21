@@ -29,7 +29,7 @@ export MY_DOMAIN="[your_name].runailabs-cs.com"
 - SSH into your lab with the provided key
 
 ```bash
-ssh -p 2222 -i /my/key ubuntu@$MY_DOMAIN
+ssh -i /my/key ubuntu@$MY_DOMAIN
 ```
 
 - Change to the Artifacts directory
@@ -104,7 +104,8 @@ helm upgrade -i gpu-operator oci://ghcr.io/run-ai/fake-gpu-operator/fake-gpu-ope
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo update
 helm install prometheus prometheus-community/kube-prometheus-stack \
-    -n monitoring --create-namespace --set grafana.enabled=false
+    -n monitoring --create-namespace --set grafana.enabled=false \
+    --set prometheus.prometheusSpec.maximumStartupDurationSeconds=600
 ```
 
 ### Install Ingress Controller
