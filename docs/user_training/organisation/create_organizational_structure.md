@@ -34,6 +34,9 @@ parent: Organisation
 
 The quotas are set only to default nodepool, we need to redistrbiute them.
 - Allocate Quota for Department A's projects to nodepool h100
+- Set the priority of h100 as 1 and h200 nodepool as 2
+
 - Allocate Quota for Department B's projects to nodepool h200
+- Set the priority of h200 as 1 and h100 nodepool as 2
 
 *Note - Try using APIs to do it*
