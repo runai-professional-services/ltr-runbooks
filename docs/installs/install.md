@@ -104,8 +104,7 @@ helm upgrade -i gpu-operator oci://ghcr.io/run-ai/fake-gpu-operator/fake-gpu-ope
 helm repo add prometheus-community https://prometheus-community.github.io/helm-charts
 helm repo update
 helm install prometheus prometheus-community/kube-prometheus-stack \
-    -n monitoring --create-namespace --set grafana.enabled=false \
-    --set prometheus.prometheusSpec.maximumStartupDurationSeconds=600
+    -n monitoring --create-namespace --set grafana.enabled=false
 ```
 
 ### Install Ingress Controller
