@@ -112,7 +112,7 @@ helm install prometheus prometheus-community/kube-prometheus-stack \
 - We'll use nginx. As it's a KIND cluster, there's a manifest available for that. First we'll label the nodes appropriately for this particular manifest
 
 ```bash
-kubectl apply -f kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
+kubectl apply -f https://raw.githubusercontent.com/kubernetes/ingress-nginx/main/deploy/static/provider/kind/deploy.yaml
 ```
 
 ### Run the pre-flight check script
