@@ -1,7 +1,7 @@
 ---
 title: Configure SSO
-nav_order: 2
-parent: Platform Configuration
+nav_order: 3
+parent: User Management
 ---
 
 # Implementing SSO

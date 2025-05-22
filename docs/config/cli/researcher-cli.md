@@ -1,6 +1,6 @@
 ---
 title: Configure The Researcher CLI
-nav_order: 4
+nav_order: 2
 parent: Configure CLIs
 ---
 
