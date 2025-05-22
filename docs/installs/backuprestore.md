@@ -16,6 +16,8 @@ To backup Run:ai cluster configurations:
     kubectl get runaiconfig runai -n runai -o yaml
     ```
 
+2. Open the configuration overrides [here](https://docs.run.ai/latest/admin/config/advanced-cluster-config/) to view advanced cluster configurations
+
 2. Create a backup of the spec as follows:
 
     ```bash
