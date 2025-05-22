@@ -1,5 +1,5 @@
 ---
-title: Configure SSO
+title: Configure SSO (OIDC)
 nav_order: 3
 parent: User Management
 ---
