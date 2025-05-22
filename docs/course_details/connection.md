@@ -8,7 +8,6 @@ Welcome to "Learn to Run". Here are some of the artifacts you will need for the 
 
 ### Logging into your instance
 
-You will need to connect to your instance using SSH. In order to authenticate you will need [this](./my-key.pem) private key:
+You will need to connect to your instance using SSH. In order to authenticate you will need [this](./my-key.pem) private key.
 
-This key should be treated as a secret. It will be rotated at the end of the course. You should download it into a directory accessible from your terminal and connect using the connection string on the [student's page](./students.md)
-
+It should be treated as a secret. It will be rotated at the end of the course. You should download it into a directory accessible from your terminal and connect using the connection string on the [student's page](./students.md)

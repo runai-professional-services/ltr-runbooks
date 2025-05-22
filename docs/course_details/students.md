@@ -6,7 +6,7 @@ nav_order: 2
 
 ### Student List - Tokyo 27 - 29 May 25
 
-The following attendees will have a lab provsioned for the course
+#### The following attendees will have a lab provsioned for the course
 
 |Name       |Domain                      |Connection String                                |
 |-----------|----------------------------|-------------------------------------------------|
