@@ -1,5 +1,5 @@
 ---
-title: Architecture
+title: Microservices Table
 parent: Architecture
 nav_order: 1
 ---
