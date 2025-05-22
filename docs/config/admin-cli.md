@@ -1,7 +1,7 @@
 ---
 title: Configure The Admin CLI
-nav_order: 3
-parent: Platform Configuration
+nav_order: 4
+parent: CLIs
 ---
 
 # Configuring the Administrator CLI
