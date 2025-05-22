@@ -10,6 +10,7 @@ The following attendees will have a lab provsioned for the course
 
 |Name       |Domain                      |Connection String                                |
 |-----------|----------------------------|-------------------------------------------------|
+|Dave|instructor.runailabs-cs.com|ssh -i /my-key.pem ubuntu@instructor.runailabs-cs.com|
 |Frank|frank.runailabs-cs.com|ssh -i /my-key.pem ubuntu@frank.runailabs-cs.com|
 |Gilbert|gilbert.runailabs-cs.com|ssh -i /my-key.pem ubuntu@gilbert.runailabs-cs.com|
 |Julia|julia.runailabs-cs.com|ssh -i /my-key.pem ubuntu@julia.runailabs-cs.com|
