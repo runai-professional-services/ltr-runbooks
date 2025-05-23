@@ -6,6 +6,10 @@ parent: Installs and Upgrades
 
 # Backup & Restore
 
+<span class="fs-3">
+  <a href="https://docs.run.ai/latest/admin/config/dr/?h=backup" class="btn" target="_blank" rel="noopener">Docs</a>
+</span>
+
 ### Backup cluster configurations
 
 To backup Run:ai cluster configurations:

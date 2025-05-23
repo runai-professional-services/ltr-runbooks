@@ -4,7 +4,7 @@ nav_order: 2
 parent: Organisation
 ---
 
-# Create organisational structure
+# Create Organisational structure
 
 *Hint - Use the official run:ai documentation*
 
@@ -25,7 +25,6 @@ parent: Organisation
 - Create Researcher L1 that has a permission to one project - use any name you wish
 - Save the first one time password for later
 
-  
 ## Create Nodepools
 
 - Create nodepool named h100 from one node
