@@ -1,5 +1,5 @@
 ---
-title: Learn to Run - Connection Credentials
+title: Learn to Run - Lab Setup
 parent: Course Admin
 nav_order: 1
 ---
