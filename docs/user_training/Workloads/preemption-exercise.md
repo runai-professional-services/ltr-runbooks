@@ -30,4 +30,6 @@ When a workload is running over-quota, it is liable to pre-emption. We can demon
 
 9. Now shut down the Jupyter notebook and observe how the scheduler now brings the training workload back on load.
 
+10. Explore the dashboards throughout and familiarise yourself with how quotas and utilisation are laid out
+    
 
