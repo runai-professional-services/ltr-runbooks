@@ -1,16 +1,17 @@
 ---
-title: Configuring Organizational Structure 
+title: Configuring Organisational Structure 
 nav_order: 2
 parent: Organisation
 ---
 
-# Create organizational structure
+# Create organisational structure
 
 *Hint - Use the official run:ai documentation*
 
 ## Create Departments
 
-- Create two departments, each with a quota of 8 GPUs. 
+- In the Admin / Resources dropdown, ensure Departments are enabled
+- Create two departments, each with a quota of 8 GPUs.
 
 ## Create Projects
 
